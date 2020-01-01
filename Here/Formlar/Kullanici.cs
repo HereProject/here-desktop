@@ -21,5 +21,10 @@ namespace Here.Formlar
         {
 
         }
+
+        private void btn_pkaydet_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

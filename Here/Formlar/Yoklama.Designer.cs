@@ -51,10 +51,11 @@
             // 
             this.dgv_yoklama.BackgroundColor = System.Drawing.Color.RosyBrown;
             this.dgv_yoklama.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_yoklama.Location = new System.Drawing.Point(25, 22);
+            this.dgv_yoklama.Location = new System.Drawing.Point(19, 18);
+            this.dgv_yoklama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgv_yoklama.Name = "dgv_yoklama";
             this.dgv_yoklama.RowTemplate.Height = 24;
-            this.dgv_yoklama.Size = new System.Drawing.Size(611, 397);
+            this.dgv_yoklama.Size = new System.Drawing.Size(458, 323);
             this.dgv_yoklama.TabIndex = 1;
             // 
             // btn_yGetir
@@ -63,12 +64,14 @@
             this.btn_yGetir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yGetir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_yGetir.ForeColor = System.Drawing.Color.RosyBrown;
-            this.btn_yGetir.Location = new System.Drawing.Point(117, 330);
+            this.btn_yGetir.Location = new System.Drawing.Point(88, 268);
+            this.btn_yGetir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_yGetir.Name = "btn_yGetir";
-            this.btn_yGetir.Size = new System.Drawing.Size(188, 54);
+            this.btn_yGetir.Size = new System.Drawing.Size(141, 44);
             this.btn_yGetir.TabIndex = 7;
             this.btn_yGetir.Text = "Yoklamayı Getir";
             this.btn_yGetir.UseVisualStyleBackColor = false;
+            this.btn_yGetir.Click += new System.EventHandler(this.Btn_yGetir_Click);
             // 
             // btn_yEkle
             // 
@@ -76,9 +79,10 @@
             this.btn_yEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yEkle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_yEkle.ForeColor = System.Drawing.Color.RosyBrown;
-            this.btn_yEkle.Location = new System.Drawing.Point(151, 100);
+            this.btn_yEkle.Location = new System.Drawing.Point(113, 81);
+            this.btn_yEkle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_yEkle.Name = "btn_yEkle";
-            this.btn_yEkle.Size = new System.Drawing.Size(188, 68);
+            this.btn_yEkle.Size = new System.Drawing.Size(141, 55);
             this.btn_yEkle.TabIndex = 8;
             this.btn_yEkle.Text = "Yoklama Kaydı ekle";
             this.btn_yEkle.UseVisualStyleBackColor = false;
@@ -89,9 +93,10 @@
             this.btn_ySil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ySil.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ySil.ForeColor = System.Drawing.Color.RosyBrown;
-            this.btn_ySil.Location = new System.Drawing.Point(117, 406);
+            this.btn_ySil.Location = new System.Drawing.Point(88, 330);
+            this.btn_ySil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_ySil.Name = "btn_ySil";
-            this.btn_ySil.Size = new System.Drawing.Size(188, 54);
+            this.btn_ySil.Size = new System.Drawing.Size(141, 44);
             this.btn_ySil.TabIndex = 9;
             this.btn_ySil.Text = "Seçili Kaydı Sil";
             this.btn_ySil.UseVisualStyleBackColor = false;
@@ -102,9 +107,10 @@
             this.txt_ogrencino.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ogrencino.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_ogrencino.ForeColor = System.Drawing.Color.RosyBrown;
-            this.txt_ogrencino.Location = new System.Drawing.Point(255, 60);
+            this.txt_ogrencino.Location = new System.Drawing.Point(191, 49);
+            this.txt_ogrencino.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_ogrencino.Name = "txt_ogrencino";
-            this.txt_ogrencino.Size = new System.Drawing.Size(188, 34);
+            this.txt_ogrencino.Size = new System.Drawing.Size(142, 29);
             this.txt_ogrencino.TabIndex = 10;
             // 
             // label1
@@ -112,9 +118,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label1.Location = new System.Drawing.Point(21, 60);
+            this.label1.Location = new System.Drawing.Point(16, 49);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 28);
+            this.label1.Size = new System.Drawing.Size(188, 21);
             this.label1.TabIndex = 11;
             this.label1.Text = "Öğrenci numarası giriniz :";
             // 
@@ -123,9 +130,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label2.Location = new System.Drawing.Point(18, 52);
+            this.label2.Location = new System.Drawing.Point(14, 42);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(173, 28);
+            this.label2.Size = new System.Drawing.Size(138, 21);
             this.label2.TabIndex = 13;
             this.label2.Text = "Ders Kodu Giriniz :";
             // 
@@ -135,9 +143,10 @@
             this.txt_ykod.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ykod.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_ykod.ForeColor = System.Drawing.Color.RosyBrown;
-            this.txt_ykod.Location = new System.Drawing.Point(197, 52);
+            this.txt_ykod.Location = new System.Drawing.Point(148, 42);
+            this.txt_ykod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txt_ykod.Name = "txt_ykod";
-            this.txt_ykod.Size = new System.Drawing.Size(188, 34);
+            this.txt_ykod.Size = new System.Drawing.Size(142, 29);
             this.txt_ykod.TabIndex = 14;
             // 
             // groupBox1
@@ -148,9 +157,11 @@
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.ForeColor = System.Drawing.Color.RosyBrown;
-            this.groupBox1.Location = new System.Drawing.Point(87, 425);
+            this.groupBox1.Location = new System.Drawing.Point(65, 345);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(495, 206);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(371, 167);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Öğrenci Ekle";
@@ -161,9 +172,10 @@
             this.btn_yBitir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yBitir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_yBitir.ForeColor = System.Drawing.Color.RosyBrown;
-            this.btn_yBitir.Location = new System.Drawing.Point(117, 255);
+            this.btn_yBitir.Location = new System.Drawing.Point(88, 207);
+            this.btn_yBitir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_yBitir.Name = "btn_yBitir";
-            this.btn_yBitir.Size = new System.Drawing.Size(188, 54);
+            this.btn_yBitir.Size = new System.Drawing.Size(141, 44);
             this.btn_yBitir.TabIndex = 16;
             this.btn_yBitir.Text = "Yoklamayı Bitir";
             this.btn_yBitir.UseVisualStyleBackColor = false;
@@ -174,9 +186,10 @@
             this.btn_yBaslat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_yBaslat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_yBaslat.ForeColor = System.Drawing.Color.RosyBrown;
-            this.btn_yBaslat.Location = new System.Drawing.Point(117, 184);
+            this.btn_yBaslat.Location = new System.Drawing.Point(88, 150);
+            this.btn_yBaslat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_yBaslat.Name = "btn_yBaslat";
-            this.btn_yBaslat.Size = new System.Drawing.Size(188, 54);
+            this.btn_yBaslat.Size = new System.Drawing.Size(141, 44);
             this.btn_yBaslat.TabIndex = 17;
             this.btn_yBaslat.Text = "Yoklamayı Başlat";
             this.btn_yBaslat.UseVisualStyleBackColor = false;
@@ -194,9 +207,11 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.ForeColor = System.Drawing.Color.RosyBrown;
-            this.groupBox2.Location = new System.Drawing.Point(642, 134);
+            this.groupBox2.Location = new System.Drawing.Point(482, 109);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(390, 497);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(292, 404);
             this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Yoklama İşlemleri";
@@ -205,9 +220,10 @@
             // 
             this.comboBox1.BackColor = System.Drawing.Color.Linen;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(238, 109);
+            this.comboBox1.Location = new System.Drawing.Point(178, 89);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(147, 36);
+            this.comboBox1.Size = new System.Drawing.Size(111, 29);
             this.comboBox1.TabIndex = 19;
             // 
             // label3
@@ -215,22 +231,24 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.RosyBrown;
-            this.label3.Location = new System.Drawing.Point(8, 109);
+            this.label3.Location = new System.Drawing.Point(6, 89);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(224, 28);
+            this.label3.Size = new System.Drawing.Size(181, 21);
             this.label3.TabIndex = 18;
             this.label3.Text = "Öğrenim Türünü Seçiniz:";
             // 
             // Yoklama
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgv_yoklama);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Yoklama";
-            this.Size = new System.Drawing.Size(1047, 687);
+            this.Size = new System.Drawing.Size(785, 558);
             this.Load += new System.EventHandler(this.Yoklama_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_yoklama)).EndInit();
             this.groupBox1.ResumeLayout(false);
